@@ -21,8 +21,8 @@ function Projects() {
                toolUsed1="React"
               toolUsed2="SCSS"
               desc="Clothing store for Alphalete, a gym clothing brand. I used React and SCSS to build this project. I also used the Context API to manage the state of the cart and the products"
-              code="https://github.com/99ru/e-wallet"
-              demo="https://chic-toffee-e0fbd8.netlify.app/"
+              code="https://github.com/99ru/Clothing"
+              demo="https://guileless-twilight-5979b7.netlify.app/"
              
               />
 
