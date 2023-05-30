@@ -5,6 +5,7 @@ import Alphalete from "../images/screenshot.png";
 import Workouts from "../images/GIF.gif"
 import Insurance from "../images/Insurance.png"
 import Poster from "../images/poster.png"
+import CardGame from "../images/CardGame.png"
 
 function Projects() {
   return (
@@ -57,6 +58,17 @@ function Projects() {
               />
 
               <ProjectItem
+              title="Higher lower"
+              img={CardGame}
+              toolUsed1="Vanilla JS"
+              toolUsed2="CSS"
+              desc="Higer lower card game i made while learning vanilla JS"
+              code="https://github.com/99ru/card-game"
+              demo="https://vocal-cuchufli-05b609.netlify.app/"
+              
+              />
+
+              <ProjectItem
               title="Insurance"
               img={Insurance}
               toolUsed1="HTML"
@@ -65,7 +77,6 @@ function Projects() {
               code="https://github.com/99ru/html-css-slutprojekt"
               demo="https://imaginative-parfait-e60184.netlify.app/"
               />
-
             </div>
           </div>
         </div>
