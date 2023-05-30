@@ -14,7 +14,7 @@ function ProjectItem({
       <div className= "pro pro__1" >
         <div className="pro__img">
           <a target="_blank" href={demo} rel="noreferrer">
-            <img src={img}/>
+            <img src={img} alt={title}/>
           </a>
         </div>
         <div className="pro__text">

@@ -44,18 +44,15 @@ function Hero() {
       img: Typescript,
       title: "Typescript",
     },
-     {
+    {
       img: Node,
       title: "Node.js",
     },
-     {
+    {
       img: MongoDB,
       title: "MongoDB",
     },
-   
   ];
-
-
 
   return (
     <>
@@ -74,10 +71,15 @@ function Hero() {
                   <a
                     href="https://www.linkedin.com/in/yanrudish/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <i class="fab fa-linkedin"></i>
                   </a>
-                  <a href="https://github.com/99ru" target="_blank">
+                  <a
+                    href="https://github.com/99ru"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i class="fab fa-github"></i>
                   </a>
                 </span>
@@ -96,8 +98,7 @@ function Hero() {
                     </li>
                   ))}
                 </ul>
-                </div>
-          
+              </div>
             </div>
           </div>
         </div>
