@@ -4,6 +4,7 @@ import wallet from "../images/wallet4.png";
 import Alphalete from "../images/screenshot.png";
 import Workouts from "../images/GIF.gif"
 import Insurance from "../images/Insurance.png"
+import Poster from "../images/poster.png"
 
 function Projects() {
   return (
@@ -41,19 +42,30 @@ function Projects() {
               toolUsed1="React"
               toolUsed2="CSS"
               desc="simple workout application fetches exercises with their data from a mock API and displays it on the page. you can sort exercises by male and female, and also choose exercises by muscle groups."
-              code=""
-              demo=""
+              code="https://github.com/99ru/WorkoutAppReact"
+              demo="https://earnest-macaron-5e6bd8.netlify.app/"
               />
 
               <ProjectItem
               title
-              img={Insurance}
+              img={Poster}
               toolUsed1="Nodejs"
               toolUsed2="Sequlize"
-              desc
-              code=""
+              desc="Rest API for construction company in Nodejs"
+              code="https://github.com/99ru/Inge-Bra-Bygg-AB"
               demo=""
               />
+
+              <ProjectItem
+              title="Insurance"
+              img={Insurance}
+              toolUsed1="HTML"
+              toolUsed2="CSS"
+              desc="For our first school project in HTML and CSS, we collaborated as a team of two and used a mob programming approach. goal of this project was to create a website that was responsive on all devices."
+              code="https://github.com/99ru/html-css-slutprojekt"
+              demo="https://imaginative-parfait-e60184.netlify.app/"
+              />
+
             </div>
           </div>
         </div>
