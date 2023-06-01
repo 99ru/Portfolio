@@ -7,18 +7,18 @@ import Angular from "../images/angular.png";
 import Typescript from "../images/typescript.svg";
 import Sass from "../images/sass.svg";
 import Wave from "../images/wave.png";
-import MongoDB from "../images/MongoDB.png";
+import MongoDB from "../images/mongodb.svg";
 import Node from "../images/Node.png";
 
 function Hero() {
   const Icons = [
     {
       img: Html,
-      title: "HTML5",
+      title: "HTML",
     },
     {
       img: Css,
-      title: "CSS3",
+      title: "CSS",
     },
     {
       img: Sass,
@@ -26,7 +26,7 @@ function Hero() {
     },
     {
       img: Js,
-      title: "Java Script",
+      title: "Javascript",
     },
     {
       img: React,
@@ -89,12 +89,15 @@ function Hero() {
             </div>
 
             <div className="skills">
-              <p>Skills</p>
+              <h3>Skills</h3>
               <div className="logos">
                 <ul>
                   {Icons.map((icon) => (
                     <li key={icon.title}>
-                      <img src={icon.img} title={icon.title} alt="skill-icon" />
+                      <div className="icon-container">
+                        <img src={icon.img} alt={icon.title} />
+                      </div>
+                      <p>{icon.title}</p>
                     </li>
                   ))}
                 </ul>

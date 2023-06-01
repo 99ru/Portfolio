@@ -352,7 +352,7 @@ nav ul a:hover {
 
 .skills {
   display: flex;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   color: #767676;
   align-items: center;
   position: absolute;
@@ -365,7 +365,7 @@ nav ul a:hover {
     flex-direction: column;
   }
 }
-.skills p {
+.skills h3 {
   margin-right: 2rem;
   padding-right: 2rem;
   border-right: 2px solid rgba(45, 46, 50, 0.5);
@@ -374,7 +374,7 @@ nav ul a:hover {
   color: #2d2e32;
 }
 @media (max-width: 900px) {
-  .skills p {
+  .skills h3 {
     margin-right: 0;
     margin-bottom: 3rem;
     border-bottom: 2px solid rgba(45, 46, 50, 0.5);
@@ -387,7 +387,7 @@ nav ul a:hover {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2rem;
 }
 @media (max-width: 900px) {
   .skills ul {
@@ -395,8 +395,22 @@ nav ul a:hover {
   }
 }
 .skills ul li {
-  width: 6.5rem;
-  height: 6.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.skills ul li p {
+  margin-top: 0.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #0000008c;
+  font-family: "Mulish", sans-serif;
+}
+.icon-container {
+  width: 5.5rem;
+  height: 5.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -405,9 +419,16 @@ nav ul a:hover {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.09);
   cursor: pointer;
 }
-.skills ul li img {
+.icon-container p{
+  margin-top: 0.5rem;
+  text-align: center;
+  font-size: 1rem;
+  }
+.icon-container img {
   width: 3rem;
-
+}
+.skills ul li img {
+  width: 3.5rem;
 }
 
 .react-icon {
