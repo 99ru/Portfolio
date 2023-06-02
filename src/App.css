@@ -544,9 +544,9 @@ nav ul a:hover {
   }
 }
 .img-side__main-img {
-  width: 41rem;
+ /*  width: 41rem;
   height: 35rem;
-  border-radius: 1.7rem;
+  border-radius: 1.7rem; */
 }
 @media (max-width: 1020px) {
   .img-side__main-img {

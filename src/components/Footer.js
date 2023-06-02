@@ -12,7 +12,7 @@ function Footer() {
 
              <div className="contact__icon-box">
                 <span>
-                  <i class="fas fa-envelope"></i>
+                  <i className="fas fa-envelope"></i>
                 </span>
                 <div className="contact__info">
                   <h3>Mail</h3>
@@ -24,7 +24,7 @@ function Footer() {
 
               <div className="contact__icon-box">
                 <span>
-                  <i class="fas fa-map-marker-alt"></i>
+                  <i className="fas fa-map-marker-alt"></i>
                 </span>
                 <div className="contact__info">
                   <h3>Location</h3>

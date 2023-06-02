@@ -1,6 +1,6 @@
 
 import ProjectItem from "./ProjectItem";
-import wallet from "../images/wallet4.png";
+import wallet from "../images/wallet.png";
 import Alphalete from "../images/screenshot.png";
 import Workouts from "../images/GIF.gif"
 import Insurance from "../images/Insurance.png"
@@ -48,7 +48,7 @@ function Projects() {
               />
 
               <ProjectItem
-              title
+              title="Inge-Bra-Bygg-AB"
               img={Poster}
               toolUsed1="Nodejs"
               toolUsed2="Sequlize"

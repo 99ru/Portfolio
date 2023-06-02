@@ -73,14 +73,14 @@ function Hero() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <i class="fab fa-linkedin"></i>
+                    <i className="fab fa-linkedin"></i>
                   </a>
                   <a
                     href="https://github.com/99ru"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <i class="fab fa-github"></i>
+                    <i className="fab fa-github"></i>
                   </a>
                 </span>
               </div>
