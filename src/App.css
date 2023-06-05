@@ -21,43 +21,6 @@ body {
   padding: 0 4rem;
 }
 
-/* Firefox */
-* {
-  scrollbar-width: thin;
-  scrollbar-color: #8e8e8e #ffffff;
-}
-
-/* Chrome, Edge and Safari */
-*::-webkit-scrollbar {
-  width: 8px;
-  width: 8px;
-}
-
-*::-webkit-scrollbar-track {
-  border-radius: 20px;
-  background-color: #ffffff;
-}
-
-*::-webkit-scrollbar-track:hover {
-  background-color: #ffffff;
-}
-
-*::-webkit-scrollbar-track:active {
-  background-color: #ffffff;
-}
-
-*::-webkit-scrollbar-thumb {
-  border-radius: 20px;
-  background-color: #8e8e8e;
-}
-
-*::-webkit-scrollbar-thumb:hover {
-  background-color: #878787;
-}
-
-*::-webkit-scrollbar-thumb:active {
-  background-color: #8e8e8e;
-}
 
 .mobile-menu {
   font-size: 2.3rem;
@@ -882,4 +845,43 @@ footer h3 {
 .footerc__socials i:hover {
   transform: scale(1.2);
   transition: all 0.2s ease-in-out;
+}
+
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #8e8e8e #ffffff;
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #ffffff;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: #8e8e8e;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #878787;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #8e8e8e;
 }

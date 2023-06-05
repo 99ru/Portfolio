@@ -32,9 +32,9 @@ function Projects() {
               img={wallet}
               toolUsed1="Vue"
               toolUsed2="CSS"
-              desc="First single page application i did with Vue.js. Create a new card and it will be added to your stack of cards, you can also click on which card you want to be displayed as active"
+              desc="First single page application with my first framework Vue.js. Create a new card and it will be added to your stack of cards, you can also click on which card you want to be displayed as active. Goal of this was to learn how to use Props and Emits"
               code="https://github.com/99ru/e-wallet"
-              demo="https://chic-toffee-e0fbd8.netlify.app/"
+              demo="https://gymclothing.netlify.app/"
               />
 
               <ProjectItem

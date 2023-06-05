@@ -8,10 +8,6 @@ function Header() {
     setMobileMenu(!mobileMenu);
   };
 
-  /* const pageUp = () => {
-    window.scrollTo({ top: (0, 0), behavior: "smooth" });
-  };
- */
   return (
     <>
       <nav>
