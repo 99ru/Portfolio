@@ -6,6 +6,7 @@ import Insurance from "../images/Insurance.png";
 import Poster from "../images/poster.png";
 import CardGame from "../images/CardGame.png";
 import Portfolio from "../images/portfolio.png";
+import Rickandmorty from "../images/Rickandmorty.png"
 
 function Projects() {
   return (
@@ -33,6 +34,16 @@ function Projects() {
                 demo="https://gymclothing.netlify.app/"
               />
 
+                <ProjectItem
+                title="Rick and morty API"
+                img={Rickandmorty}
+                toolUsed1="React"
+                toolUsed2="CSS"
+                desc="Rick and morty API, you can search for characters and see their details by clicking on the image."
+                code="https://github.com/99ru/rick-n-morty-api"
+                demo="https://courageous-medovik-4c32f2.netlify.app/"
+              />
+
               <ProjectItem
                 title="E-Wallet"
                 img={wallet}
@@ -41,16 +52,6 @@ function Projects() {
                 desc="First single page application with my first framework Vue.js. Create a new card and it will be added to your stack of cards, you can also click on which card you want to be displayed as active. Goal of this was to learn how to use Props and Emits"
                 code="https://github.com/99ru/e-wallet"
                 demo="https://chic-toffee-e0fbd8.netlify.app/"
-              />
-
-              <ProjectItem
-                title="Workouts"
-                img={Workouts}
-                toolUsed1="React"
-                toolUsed2="CSS"
-                desc="simple workout application fetches exercises with their data from a mock API and displays it on the page. you can sort exercises by male and female, and also choose exercises by muscle groups."
-                code="https://github.com/99ru/WorkoutAppReact"
-                demo="https://earnest-macaron-5e6bd8.netlify.app/"
               />
 
               <ProjectItem
