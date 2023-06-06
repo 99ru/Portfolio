@@ -1,7 +1,7 @@
 import ProjectItem from "./ProjectItem";
 import wallet from "../images/wallet.png";
 import Alphalete from "../images/screenshot.png";
-import Workouts from "../images/GIF.gif";
+/* import Workouts from "../images/GIF.gif"; */
 import Insurance from "../images/Insurance.png";
 import Poster from "../images/poster.png";
 import CardGame from "../images/CardGame.png";
