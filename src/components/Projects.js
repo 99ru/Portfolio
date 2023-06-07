@@ -15,7 +15,7 @@ function Projects() {
         <div className="container">
           <div className="project-content">
             <p>portfolio</p>
-            <h3>Some of my projects 🖥️</h3>
+            <h3>Some of my projects</h3>
             <div className="projects-grid">
               <ProjectItem title="Portfolio"
                img={Portfolio}

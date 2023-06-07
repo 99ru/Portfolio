@@ -63,7 +63,7 @@ function Hero() {
             <div className="hero-main">
               <div className="hero-text">
               <h2>Hi there👋🏼</h2>
-                <h1>Web Developer💻</h1>
+                <h1>Im a Web Developer</h1>
               {/*   <img src={Wave} alt="waving_hand" /> */}
                 <p>🎓Recent graduate from IT-Högskolan, Stockholm. </p>
                 <span>

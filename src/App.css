@@ -195,7 +195,7 @@ nav ul a:hover {
 .hero-text {
   display: flex;
   flex-direction: column;
-  max-width: 50rem;
+  max-width: 60rem;
   position: relative;
 }
 .hero-text h1 {
