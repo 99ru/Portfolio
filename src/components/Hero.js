@@ -6,7 +6,8 @@ import Vue from "../images/vue.png";
 import Angular from "../images/angular.png";
 import Typescript from "../images/typescript.svg";
 import Sass from "../images/sass.svg";
-import Wave from "../images/wave.png";
+/* import Wave from "../images/wave.png";
+import Dev from "../images/dev.avif"; */
 import MongoDB from "../images/mongodb.svg";
 import Node from "../images/Node.png";
 
@@ -61,10 +62,9 @@ function Hero() {
           <div className="content">
             <div className="hero-main">
               <div className="hero-text">
-                <h1>Junior Web Developer</h1>
-                <img src={Wave} alt="waving_hand" />
+                <h1>Web Developer💻</h1>
+              {/*   <img src={Wave} alt="waving_hand" /> */}
                 <p>🎓Recent graduate from IT-Högskolan, Stockholm. </p>
-
                 <span>
                   <a
                     href="https://www.linkedin.com/in/yanrudish/"

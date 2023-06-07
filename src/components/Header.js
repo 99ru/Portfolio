@@ -12,7 +12,7 @@ function Header() {
     <>
       <nav>
         <h3 className="Dev">
-        <a href="#home">Yan.Ru</a>
+        <a href="#home">Yan Rudish</a>
         </h3>
         <ul>
           <li>

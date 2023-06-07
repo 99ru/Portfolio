@@ -199,7 +199,7 @@ nav ul a:hover {
   position: relative;
 }
 .hero-text h1 {
-  font-size: 5.5rem;
+  font-size: 5rem;
   line-height: 1.2;
   color: #2d2e32;
   margin-bottom: 2rem;
@@ -284,8 +284,8 @@ nav ul a:hover {
 
 .hero-img {
   background-image: url("/src/images/yan.jpg");
-  width: 35rem;
-  height: 35rem;
+  width: 30rem;
+  height: 30rem;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
