@@ -5,7 +5,7 @@ import Alphalete from "../images/screenshot.png";
 import Insurance from "../images/Insurance.png";
 import Poster from "../images/poster.png";
 import CardGame from "../images/CardGame.png";
-import Portfolio from "../images/portfolio.png";
+import Portfolio from "../images/Portfolio.png";
 import Rickandmorty from "../images/Rickandmorty.png"
 
 function Projects() {

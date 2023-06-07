@@ -62,6 +62,7 @@ function Hero() {
           <div className="content">
             <div className="hero-main">
               <div className="hero-text">
+              <h2>Hi there👋🏼</h2>
                 <h1>Web Developer💻</h1>
               {/*   <img src={Wave} alt="waving_hand" /> */}
                 <p>🎓Recent graduate from IT-Högskolan, Stockholm. </p>
@@ -82,7 +83,6 @@ function Hero() {
                   </a>
                 </span>
               </div>
-
               <div className="hero-img"></div>
             </div>
 
