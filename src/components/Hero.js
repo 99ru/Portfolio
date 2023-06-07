@@ -65,7 +65,7 @@ function Hero() {
               <h2>Hi there👋🏼</h2>
                 <h1>Im a Web Developer</h1>
               {/*   <img src={Wave} alt="waving_hand" /> */}
-                <p>🎓Recent graduate from IT-Högskolan, Stockholm. </p>
+                <p>Recent graduate from IT-Högskolan, Stockholm 🎓 </p>
                 <span>
                   <a
                     href="https://www.linkedin.com/in/yanrudish/"
