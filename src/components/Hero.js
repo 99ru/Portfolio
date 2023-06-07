@@ -61,9 +61,10 @@ function Hero() {
           <div className="content">
             <div className="hero-main">
               <div className="hero-text">
-                <h1>Junior Web Developer </h1>
+                <h1>Junior Web Developer</h1>
                 <img src={Wave} alt="waving_hand" />
                 <p>🎓Recent graduate from IT-Högskolan, Stockholm. </p>
+
                 <span>
                   <a
                     href="https://www.linkedin.com/in/yanrudish/"
