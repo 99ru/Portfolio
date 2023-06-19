@@ -1,10 +1,7 @@
 import ProjectItem from "./ProjectItem";
 import wallet from "../images/wallet.png";
 import Alphalete from "../images/screenshot.png";
-/* import Workouts from "../images/GIF.gif"; */
-import Insurance from "../images/Insurance.png";
 import Poster from "../images/poster.png";
-import CardGame from "../images/CardGame.png";
 import Portfolio from "../images/Portfolio.png";
 import Rickandmorty from "../images/rickandmorty.png"
 import GymApp from "../images/GymApp.png"
@@ -49,7 +46,7 @@ function Projects() {
                 code="https://github.com/99ru/rick-n-morty-api"
                 demo="https://courageous-medovik-4c32f2.netlify.app/"
               />
-              
+
               <ProjectItem title="Portfolio"
                img={Portfolio}
                toolUsed1={"React"}
