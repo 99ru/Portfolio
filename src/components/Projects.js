@@ -21,7 +21,7 @@ function Projects() {
                 img={GymApp}
                 toolUsed1="React Next.js"
                 toolUsed2="Tailwind css"
-                desc="First project in Nextjs. Simply a gym planner app where you can add workouts and add sets,reps,weight. Planning to add a calendar, authentication."
+                desc="First project in Nextjs. Simply a gym planner app where you can add workouts and add sets, reps, weight."
                 code="https://github.com/99ru/gym-app"
                 demo="https://gym-planner-app.netlify.app/"
               />
@@ -53,16 +53,6 @@ function Projects() {
                toolUsed2={"CSS"}
                desc={"The portfolio you are viewing right now."}
                code={"https://github.com/99ru/Portfolio"}
-              />
-
-              <ProjectItem
-                title="E-Wallet"
-                img={wallet}
-                toolUsed1="Vue"
-                toolUsed2="CSS"
-                desc="First single page application with my first framework Vue.js. Create a new card and it will be added to your stack of cards, you can also click on which card you want to be displayed as active. Goal of this was to learn how to use Props and Emits."
-                code="https://github.com/99ru/e-wallet"
-                demo="https://chic-toffee-e0fbd8.netlify.app/"
               />
 
               <ProjectItem
