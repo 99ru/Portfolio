@@ -8,12 +8,14 @@ function About() {
           <div className="about-content">
             <div className="img-side">
               <img src={dev} alt="emoji" className="img-side__main-img" />
-          
             </div>
             <div className="text-side">
               <h3>About me</h3>
               <p>
-               Hi there! I'm a Web-Developer with a passion for building beautiful and functional websites. With a strong foundation in frontend development and some backend experience from school projects, I'm eager to tackle new challenges as I approach graduation. I thrive in diverse work environments, enjoying both team collaborations and independent projects. Outside of coding, i like to spend my time at the gym and play video games.
+                Hello there! I'm a passionate Web Developer with expertise in
+                JavaScript. Recently graduated, with over 2 years of practical
+                experience. Ready to tackle exciting challenges as a Frontend
+                Developer.
               </p>
             </div>
           </div>

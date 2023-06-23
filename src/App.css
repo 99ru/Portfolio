@@ -516,11 +516,11 @@ nav ul a:hover {
     transform: rotate(360deg);
   }
 }
-/* .img-side__main-img {
+.img-side__main-img {
   width: 41rem;
   height: 35rem;
   border-radius: 1.7rem;
-} */
+}
 @media (max-width: 1020px) {
   .img-side__main-img {
     margin-bottom: 3.5rem;
