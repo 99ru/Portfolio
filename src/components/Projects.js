@@ -1,5 +1,4 @@
 import ProjectItem from "./ProjectItem";
-import wallet from "../images/wallet.png";
 import Alphalete from "../images/screenshot.png";
 import Poster from "../images/poster.png";
 import Portfolio from "../images/Portfolio.png";
