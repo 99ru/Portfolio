@@ -409,7 +409,7 @@ nav ul a:hover {
 
 .about {
   background-color: white;
-  padding: 15rem 0;
+  padding: 8rem 0;
 }
 @media (max-width: 1020px) {
   .about {
@@ -521,7 +521,7 @@ nav ul a:hover {
 }
 @media (max-width: 460px) {
   .about-image {
-    width: 90%;
+    width: 50%;
     height: auto;
   }
 }
