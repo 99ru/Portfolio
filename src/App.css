@@ -21,7 +21,6 @@ body {
   padding: 0 4rem;
 }
 
-
 .mobile-menu {
   font-size: 2.3rem;
   cursor: pointer;
@@ -382,8 +381,8 @@ nav ul a:hover {
   font-family: "Mulish", sans-serif;
 }
 .icon-container {
-  width: 5.5rem;
-  height: 5.5rem;
+  width: 6rem;
+  height: 6rem;
   display: flex;
   align-items: center;
   justify-content: center;

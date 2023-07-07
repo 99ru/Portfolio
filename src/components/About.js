@@ -12,8 +12,8 @@ function About() {
             <div className="text-side">
               <h3>About me</h3>
               <p>
-                Hello there! I'm a passionate Web Developer with expertise in
-                JavaScript. Recently graduated, with over 2 years of practical
+                Hello there! I'm a passionate Developer with expertise in
+                Javascript. Recently graduated, with over 2 years of practical
                 experience. Ready to tackle exciting challenges as a Frontend
                 Developer.
               </p>

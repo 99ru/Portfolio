@@ -3,13 +3,10 @@ import Css from "../images/css.svg";
 import Js from "../images/js.svg";
 import React from "../images/react.svg";
 import Vue from "../images/vue.png";
-import Angular from "../images/angular.png";
 import Typescript from "../images/typescript.svg";
-import Sass from "../images/sass.svg";
-/* import Wave from "../images/wave.png";
-import Dev from "../images/dev.avif"; */
-import MongoDB from "../images/mongodb.svg";
 import Node from "../images/Node.png";
+import Nextjs from "../images/nextjs.svg";
+import Tailwind from "../images/tailwind.svg";
 
 function Hero() {
   const Icons = [
@@ -22,36 +19,32 @@ function Hero() {
       title: "CSS",
     },
     {
-      img: Sass,
-      title: "Scss",
+      img: Tailwind,
+      title: "Tailwind",
     },
     {
       img: Js,
       title: "Javascript",
     },
     {
+      img: Typescript,
+      title: "Typescript",
+    },
+    {
       img: React,
       title: "React",
+    },
+    {
+      img: Nextjs,
+      title: "Next.js",
     },
     {
       img: Vue,
       title: "Vue",
     },
     {
-      img: Angular,
-      title: "Angular",
-    },
-    {
-      img: Typescript,
-      title: "Typescript",
-    },
-    {
       img: Node,
       title: "Node.js",
-    },
-    {
-      img: MongoDB,
-      title: "MongoDB",
     },
   ];
 
@@ -62,9 +55,8 @@ function Hero() {
           <div className="content">
             <div className="hero-main">
               <div className="hero-text">
-              <h2>Hi there👋🏼</h2>
-                <h1>Im a Web Developer</h1>
-              {/*   <img src={Wave} alt="waving_hand" /> */}
+                <h2>Hi there👋🏼</h2>
+                <h1>I'm a web developer</h1>
                 <p>Recent graduate from IT-Högskolan, Stockholm 🎓 </p>
                 <span>
                   <a

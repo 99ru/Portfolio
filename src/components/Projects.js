@@ -19,12 +19,11 @@ function Projects() {
                 title="Gym App (IN PROGRESS)"
                 img={GymApp}
                 toolUsed1="React Next.js"
-                toolUsed2="Tailwind css"
+                toolUsed2="Tailwind"
                 desc="First project in Nextjs. Simply a gym planner app where you can add workouts and add sets, reps, weight."
                 code="https://github.com/99ru/gym-app"
                 demo="https://gym-planner-app.netlify.app/"
               />
-
 
               <ProjectItem
                 title="Gym Clothing"
