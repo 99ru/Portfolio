@@ -1,4 +1,3 @@
-import dev from "../images/dev.png";
 import dev2 from "../images/programmer.png";
 
 function About() {
