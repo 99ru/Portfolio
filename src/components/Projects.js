@@ -42,7 +42,7 @@ function Projects() {
                 toolUsed2="CSS"
                 desc="Rick and morty API, you can search for characters and see their details by clicking on the image. You can also use the filters to sort by different categories."
                 code="https://github.com/99ru/rick-n-morty-api"
-                demo="https://courageous-medovik-4c32f2.netlify.app/"
+                demo="https://rickandmortywikiapi.netlify.app/"
               />
 
               <ProjectItem title="Portfolio"
