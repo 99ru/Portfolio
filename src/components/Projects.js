@@ -2,8 +2,9 @@ import ProjectItem from "./ProjectItem";
 import Alphalete from "../images/screenshot.png";
 import Poster from "../images/poster.png";
 import Portfolio from "../images/Portfolio.png";
-import Rickandmorty from "../images/rickandmorty.png"
-import GymApp from "../images/GymApp.png"
+import Rickandmorty from "../images/rickandmorty.png";
+import GymApp from "../images/GymApp.png";
+import Wallet from "../images/wallet.png";
 
 function Projects() {
   return (
@@ -14,8 +15,7 @@ function Projects() {
             <p>portfolio</p>
             <h3>Some of my projects</h3>
             <div className="projects-grid">
-
-            <ProjectItem
+              <ProjectItem
                 title="Gym App (IN PROGRESS)"
                 img={GymApp}
                 toolUsed1="React Next.js"
@@ -35,7 +35,7 @@ function Projects() {
                 demo="https://gymclothing.netlify.app/"
               />
 
-                <ProjectItem
+              <ProjectItem
                 title="Rick and morty API"
                 img={Rickandmorty}
                 toolUsed1="React"
@@ -45,12 +45,23 @@ function Projects() {
                 demo="https://rickandmortywikiapi.netlify.app/"
               />
 
-              <ProjectItem title="Portfolio"
-               img={Portfolio}
-               toolUsed1={"React"}
-               toolUsed2={"CSS"}
-               desc={"The portfolio you are viewing right now."}
-               code={"https://github.com/99ru/Portfolio"}
+              <ProjectItem
+                title="E-Wallet"
+                img={Wallet}
+                toolUsed1="Vue.js"
+                toolUsed2="CSS"
+                desc="Single page application, built in Vue.js. You can add credit cards and they will be stacked on top of each other. You can also click on them to select active card. "
+                code="https://github.com/99ru/e-wallet"
+                demo="https://ewallet-vue.netlify.app/"
+              />
+
+              <ProjectItem
+                title="Portfolio"
+                img={Portfolio}
+                toolUsed1={"React"}
+                toolUsed2={"CSS"}
+                desc={"The portfolio you are viewing right now."}
+                code={"https://github.com/99ru/Portfolio"}
               />
 
               <ProjectItem
